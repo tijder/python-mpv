@@ -37,7 +37,7 @@ else:
     # still better than segfaulting, we are setting LC_NUMERIC to "C".
     locale.setlocale(locale.LC_NUMERIC, 'C')
     
-#     pathToLib = './.var/app/org.gnome.Builder/cache/gnome-builder/projects/Plex/flatpak/staging/x86_64-master/files/lib/libmpv.so'
+    pathToLib = './.var/app/org.gnome.Builder/cache/gnome-builder/projects/Plex/flatpak/staging/x86_64-master/files/lib/libmpv.so'
     print(pathToLib)
 #     sofile = ctypes.util.find_library(pathToLib)
 #     if sofile is None:
